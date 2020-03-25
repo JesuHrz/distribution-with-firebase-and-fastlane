@@ -36,7 +36,7 @@ Navigate to your IOS project folder and run:
 fastlane init
 ```
 
-choose option 4 and follow the steps in the terminal
+Choose option 4 and follow the steps in the terminal
 
 
 ## Follow the next step:
