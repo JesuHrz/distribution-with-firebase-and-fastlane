@@ -1,3 +1,5 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/jesuhrz/distribution-with-firebase-and-fastlane/master?style=flat-square)
+
 <br/><br/>
 <p align="center">
   <img width="600" src="https://res.cloudinary.com/jesuhrz/image/upload/v1585169733/fastlane-and-firebase.png">
