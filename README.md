@@ -39,9 +39,9 @@ fastlane init
 Choose option 4 and follow the steps in the terminal
 
 
-## Follow the next step:
+### Follow the next step:
 
-### - Add plugin
+#### - Add plugin
 Run and follow the steps in the terminal:
 ```
 fastlane add_plugin firebase_app_distribution
@@ -101,9 +101,9 @@ Navigate to your Android project folder, run and follow the steps in the termina
 fastlane init
 ```
 
-## Follow the next step:
+### Follow the next step:
 
-### - Add plugin
+#### - Add plugin
 Run and follow the steps in the terminal:
 ```
 fastlane add_plugin increment_version_code
