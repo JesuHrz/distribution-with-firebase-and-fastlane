@@ -31,7 +31,6 @@ firebase login
 ```
 
 ## IOS Setup:
-
 Navigate to your IOS project folder and run:
 ```
 fastlane init
@@ -43,13 +42,13 @@ choose option 4 and follow the steps in the terminal
 ## Follow the next step:
 
 ### - Add plugin
-
 Run and follow the steps in the terminal:
 ```
 fastlane add_plugin firebase_app_distribution
 ```
 
 #### - Add .env file
+Navigate to the fastlane folder of your project, create an .env file and copy the following:
 ```
 SCHEME_NAME="" // Scheme name of your IOS project
 BUNDLE_ID="" // Bundle ID of your IOS  project
@@ -59,6 +58,7 @@ GROUPS="" // Name of the groups created for distribution in Firebase Console
 ```
 
 #### - Add new task
+Add this new task in the Fastfile file
 ```
 desc "Building your App in beta version"
 lane :beta do |options|
