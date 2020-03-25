@@ -141,7 +141,7 @@ lane :beta do |options|
   )
 end
 ```
-## Finally we run our script:
+## Finally we run our task:
 ```
 fastlane beta env:development
 ```
