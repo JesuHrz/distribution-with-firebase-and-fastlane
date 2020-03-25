@@ -1,6 +1,6 @@
 <br/><br/>
 <p align="center">
-  <img width="500" src="https://res.cloudinary.com/jesuhrz/image/upload/v1585169733/fastlane-and-firebase.png">
+  <img width="600" src="https://res.cloudinary.com/jesuhrz/image/upload/v1585169733/fastlane-and-firebase.png">
 </p>
 <br/>
 
@@ -23,7 +23,7 @@ brew install fastlane
 ```
 
 ## Firebase CLI installation:
-follow the steps of the CLI firebase documentation: [Firebase CLI](https://firebase.google.com/docs/cli)
+Follow the steps of the CLI firebase documentation: [Firebase CLI](https://firebase.google.com/docs/cli)
 
 After installing Firebase CLI, run in the terminal:
 ```
