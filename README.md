@@ -1,7 +1,8 @@
-<br />
+<br /><br /><br />
 <p align="center">
   <img width="400" height="150" src="https://res.cloudinary.com/jesuhrz/image/upload/v1585167967/lfastlane-and-firebase-logo.png">
 </p>
+<br /><br /><br />
 
 # Distribution of apps with Fastlane and Firebase
 Distribution of apps with firebase for apps made in IOS, Android or React Native
