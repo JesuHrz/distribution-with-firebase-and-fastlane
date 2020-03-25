@@ -94,3 +94,51 @@ private_lane :build do |options|
     )
 end
 ```
+
+## Android Setup:
+Navigate to your Android project folder, run and follow the steps in the terminal:
+```
+fastlane init
+```
+
+## Follow the next step:
+
+### - Add plugin
+Run and follow the steps in the terminal:
+```
+fastlane add_plugin increment_version_code
+```
+```
+fastlane add_plugin firebase_app_distribution
+```
+
+#### - Add .env file
+Navigate to the fastlane folder of your project, create an .env file and copy the following:
+```
+APP_ID="" // App Id of your project in Firebase Console
+GROUPS="" // Name of the groups created for distribution in Firebase Console
+```
+
+#### - Add new task
+Add this new task in the Fastfile file
+```
+desc "Building your App in version beta"
+lane :beta do |options|
+  puts "+---------------------------------+".bold.blue
+  puts "|-- Environment: #{options[:env]} 🚀 --|".bold.blue
+  puts "+---------------------------------+".bold.blue
+
+  increment_version_code(
+    gradle_file_path: "app/build.gradle",
+  )
+  gradle(
+    task: "clean assembleRelease"
+  )
+  firebase_app_distribution(
+    app: ENV['APP_ID'],
+    groups: ENV["GROUPS"] || options[:groups],
+    release_notes: options[:notes] || "",
+  )
+end
+```
+
